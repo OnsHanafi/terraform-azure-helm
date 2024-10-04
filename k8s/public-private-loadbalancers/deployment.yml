@@ -17,5 +17,5 @@ spec:
         image: nginx:1.25.2
         ports:
           - name: http 
-          containerPort: 80
+            containerPort: 80
         
