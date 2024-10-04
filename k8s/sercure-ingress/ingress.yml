@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: echoserver-v2-secure
+  annotations:
+    # change to production when the cert works
+    cert-manager.io/cluster-issuer: production
+spec:
+  ingressClassName: external-nginx
+  rules:
+  - host: ons.zapto.org
+    http:
+      paths:
+      - pathType: Exact
+        path: /
+        backend:
+          service:
+            name: echoserver-v2-secure
+            port: 
+              number: 8080
+# this will appear in the tls cert and you can have multiple hosts
+  tls:
+    - hosts:
+        - ons.zapto.org
+      secretName: ons-zapto-org
+  
