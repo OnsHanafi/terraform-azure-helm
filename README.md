@@ -5,7 +5,7 @@ This project demonstrates how to deploy a **production-ready Azure Kubernetes Se
 ## 🚀 Tools Used
 - **Helm**
 - **Terraform**
-- **Kubernetes (K8s)**
+- **Kubernetes**
 - **Azure**
 
 ## 🌐 Project Overview
