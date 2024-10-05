@@ -73,7 +73,9 @@ This project covers the deployment of a robust AKS infrastructure with Terraform
    Allows pods to authenticate against Azure resources without secrets or credentials stored within the cluster.
    - A new managed identity is created and mapped to the Kubernetes service account.
    - Identity credentials are managed as Kubernetes resources.
-   <img src="https://github.com/user-attachments/assets/7491b3dc-5937-469e-b561-3764d283254d" width="500">
+   <img src="https://github.com/user-attachments/assets/9d2ab786-2196-4537-bfd8-3c30742da093" width="500">
+
+
 
 ---
 
