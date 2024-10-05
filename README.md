@@ -79,6 +79,7 @@ This project covers the deployment of a robust AKS infrastructure with Terraform
 
 ## 🎯 Result
 A fully functional AKS environment with:
+- Scalable cluster.
 - Secure ingress and TLS management.
 - Workload identity integration for seamless pod authentication.
 
