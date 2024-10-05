@@ -89,7 +89,3 @@ A fully functional AKS environment with:
 - **Nginx Ingress** manages external traffic routing to services within the AKS cluster.
 - **Cert Manager** ensures automatic TLS certificate management for secure endpoints.
 
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
