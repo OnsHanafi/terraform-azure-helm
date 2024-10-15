@@ -1,6 +1,6 @@
 # 🌟 Production-Ready Azure Service using Terraform 🌟
 
-This project demonstrates how to deploy a **production-ready Azure Kubernetes Service (AKS)** cluster using Terraform. It includes setting up networking, security, load balancing, and other key infrastructure components, along with deploying applications using Helm.
+This project demonstrates how to deploy a **production-ready Azure Kubernetes Service (AKS)** cluster using Terraform. It includes setting up networking, security, load balancing, and other key infrastructure components, along with deploying Nginx Ingress and Cert Manager using Helm.
 
 ## 🚀 Tools Used
 - **Helm**
